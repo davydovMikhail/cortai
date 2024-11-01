@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cortai/static/css/main.31b73cdf.css",
+    "main.js": "/cortai/static/js/main.a9cba55a.js",
+    "static/media/SPACE-ARMOR.OTF": "/cortai/static/media/SPACE-ARMOR.68ef9b3fcb2015faea17.OTF",
+    "index.html": "/cortai/index.html",
+    "main.31b73cdf.css.map": "/cortai/static/css/main.31b73cdf.css.map",
+    "main.a9cba55a.js.map": "/cortai/static/js/main.a9cba55a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31b73cdf.css",
+    "static/js/main.a9cba55a.js"
+  ]
+}
