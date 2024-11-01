@@ -1,0 +1,119 @@
+.w-layout-layout {
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  grid-auto-columns: 1fr;
+  justify-content: center;
+  padding: 20px;
+}
+
+.w-layout-cell {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.w-layout-blockcontainer {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media screen and (max-width: 991px) {
+  .w-layout-blockcontainer {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .w-layout-blockcontainer {
+    max-width: none;
+  }
+}
+
+.section {
+  background-color: #03060a;
+  width: 100svw;
+  height: 100svh;
+}
+
+.chat {
+  border: 1px solid #fff3;
+  border-radius: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.heading {
+  color: #fff;
+  margin-top: 10px;
+  font-family: Space Armor, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.heading.main {
+  text-align: center;
+  font-size: 32px;
+}
+
+.cell {
+  border: 1px solid #fff3;
+  border-radius: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px 10px;
+}
+
+.cell-2 {
+  border: 1px solid #fff3;
+  border-radius: 20px;
+}
+
+.cell-3 {
+  border: 1px solid #fff3;
+  border-radius: 20px;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 20px 40px;
+}
+
+.cell-user {
+  text-align: left;
+  border: 1px solid #fff3;
+  border-radius: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.quick-stack {
+  height: 98svh;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+#w-node-_438df5a7-ec38-3fa2-8541-5f4b6bc41c3d-61efa9ba {
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+#w-node-_438df5a7-ec38-3fa2-8541-5f4b6bc41c3f-61efa9ba {
+  grid-row: span 3 / span 3;
+}
+
+#w-node-_948ec0e0-45f5-d4b8-747c-a3cfd2c033f7-61efa9ba {
+  grid-row: span 2 / span 2;
+}
+
+
+@font-face {
+  font-family: 'Space Armor';
+  src: url('../fonts/SPACE-ARMOR.OTF') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
