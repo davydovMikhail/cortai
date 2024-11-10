@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cortai/static/css/main.a2cc3f4a.css",
-    "main.js": "/cortai/static/js/main.e25aa497.js",
+    "main.css": "/cortai/static/css/main.59382d07.css",
+    "main.js": "/cortai/static/js/main.8e54cbbd.js",
     "static/media/Ellipse-5.png": "/cortai/static/media/Ellipse-5.c4a7673f225e572884de.png",
     "static/media/Unbounded-VariableFont_wght.ttf": "/cortai/static/media/Unbounded-VariableFont_wght.db84d8db427d8dff17c3.ttf",
     "static/media/Ellipse-4-1.png": "/cortai/static/media/Ellipse-4-1.5e7b7bdff213444a5042.png",
@@ -27,11 +27,11 @@
     "static/media/Vectors-Wrapper_4.svg": "/cortai/static/media/Vectors-Wrapper_4.6d38428d846567de4cb0384ca6515499.svg",
     "index.html": "/cortai/index.html",
     "static/media/Vectors-Wrapper_3.svg": "/cortai/static/media/Vectors-Wrapper_3.1cd739859814aa5da2e9a3021b72ba95.svg",
-    "main.a2cc3f4a.css.map": "/cortai/static/css/main.a2cc3f4a.css.map",
-    "main.e25aa497.js.map": "/cortai/static/js/main.e25aa497.js.map"
+    "main.59382d07.css.map": "/cortai/static/css/main.59382d07.css.map",
+    "main.8e54cbbd.js.map": "/cortai/static/js/main.8e54cbbd.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2cc3f4a.css",
-    "static/js/main.e25aa497.js"
+    "static/css/main.59382d07.css",
+    "static/js/main.8e54cbbd.js"
   ]
 }
