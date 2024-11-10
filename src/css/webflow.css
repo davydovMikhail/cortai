@@ -340,7 +340,7 @@ label {
   margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333333;
+  color: #999;
   vertical-align: middle;
   background-color: #ffffff;
   border: 1px solid #cccccc;
@@ -368,7 +368,7 @@ fieldset[disabled] .w-select {
 .w-select[readonly],
 fieldset[disabled]:not(.w-input-disabled) .w-input,
 fieldset[disabled]:not(.w-input-disabled) .w-select {
-  background-color: #eeeeee;
+  /* background-color: #eeeeee; */
 }
 textarea.w-input,
 textarea.w-select {

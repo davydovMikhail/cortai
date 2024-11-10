@@ -4,13 +4,11 @@ import { useActions } from './storeHooks/useActions';
 import VectorsWrapper from './images/Vectors-Wrapper.svg';
 import VectorsWrapper1 from './images/Vectors-Wrapper_1.svg';
 import VectorsWrapper2 from './images/Vectors-Wrapper_2.svg';
-import VectorsWrapper3 from './images/Vectors-Wrapper_3.svg';
-import VectorsWrapper4 from './images/Vectors-Wrapper_4.svg';
 import VectorsWrapper6 from './images/Vectors-Wrapper_6.svg';
 import VectorsWrapper7 from './images/Vectors-Wrapper_7.svg';
 import VectorsWrapper8 from './images/Vectors-Wrapper_8.svg';
-import VectorsWrapper9 from './images/Vectors-Wrapper_9.svg';
 import Girl from './images/Untitled1-1707x943-1.png';
+import Chat from './components/chat';
 
 function App() {
   
@@ -70,57 +68,7 @@ function App() {
               <div className="text-13">$CORT study progression</div>
               <div className="_69">69% </div><img src={VectorsWrapper1} loading="lazy" width="228" height="161" alt="" className="vectors-wrapper-11" /><img src={VectorsWrapper8} loading="lazy" alt="" className="image" /><img src={VectorsWrapper2} loading="lazy" width="155" height="155" alt="" className="vectors-wrapper-12" /><img src={ VectorsWrapper } loading="lazy" alt="" className="image-2" />
             </div>
-            <div className="_6">
-              <div className="message">
-                <div className="frame-48096125">
-                  <div className="frame-48096124"><img src={VectorsWrapper9} loading="lazy" width="48" height="48.000003814697266" alt="" className="vectors-wrapper-13" />
-                    <div className="text-8">Cortana chat</div><img src={ VectorsWrapper3 } loading="lazy" width="26" height="26" alt="" className="vectors-wrapper-14" />
-                  </div>
-                </div>
-                <div className="frame-2072749665">
-                  <div className="frame-48096132"><img src={ VectorsWrapper4 } loading="lazy" width="24" height="24" alt="" className="vectors-wrapper-15" /></div>
-                </div>
-              </div>
-              <div className="frame-2072749680">
-                <div className="message-2">
-                  <div className="text-14">Yoooo</div>
-                </div>
-                <div className="message-2">
-                  <div className="text-14">Yoooo</div>
-                </div>
-                <div className="message-2">
-                  <div className="text-14">Yoooo</div>
-                </div>
-                <div className="message-2">
-                  <div className="text-14">Yoooo</div>
-                </div>
-                <div className="message-2">
-                  <div className="text-14">Yoooo</div>
-                </div>
-                <div className="message-2">
-                  <div className="text-14">Yoooo</div>
-                </div>
-                <div className="frame-2072749679">
-                  <div className="message-3">
-                    <div className="text-14">Hello</div>
-                  </div>
-                  <div className="message-4">
-                    <div className="text-14">Can I help you?</div>
-                  </div>
-                </div>
-              </div>
-              <div className="div-block">
-                <div className="w-form">
-                  <form id="email-form" name="email-form" data-name="Email Form" method="get" className="form-2" data-wf-page-id="6717b20bef0a0bfd61efa9ba" data-wf-element-id="6c10236e-2f11-ba2a-50d6-560a228f000f"><input className="text-field-2 w-input" name="field" data-name="Field" placeholder="Message..." type="text" id="field" /><input type="submit" data-wait="Please wait..." className="submit-button-2 w-button" value="Send" /></form>
-                  <div className="w-form-done">
-                    <div>Thank you! Your submission has been received!</div>
-                  </div>
-                  <div className="w-form-fail">
-                    <div>Oops! Something went wrong while submitting the form.</div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <Chat />
           </div>
         </section>
       </section>

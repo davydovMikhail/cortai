@@ -926,6 +926,7 @@
   position: absolute;
   top: 11px;
   left: 11px;
+  cursor: pointer;
 }
 
 .frame-2072749665 {
@@ -1008,7 +1009,7 @@
 
 .text-14 {
   color: #fff;
-  word-break: break-all;
+  word-break: normal;
   margin-top: 0;
   margin-bottom: 0;
   font-family: Unbounded, sans-serif;
