@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import VectorsWrapper3 from '../images/Vectors-Wrapper_3.svg';
 import VectorsWrapper4 from '../images/Vectors-Wrapper_4.svg';
-import VectorsWrapper9 from '../images/Vectors-Wrapper_9.svg';
+import VectorsWrapper11 from '../images/Vectors-Wrapper_11.svg';
 import { useTypedSelector } from '../storeHooks/useTypedSelector';
 import { useActions } from '../storeHooks/useActions';
 import MsgItem from "./msgitem";
@@ -18,7 +18,8 @@ const Chat = () => {
         if (isOpen) {
             let history = getMessages();
             
-            ws.current = new WebSocket("ws://194.87.97.198:16804"); // создаем ws соединение
+            // ws.current = new WebSocket("wss://194.87.97.198:16804"); // создаем ws соединение
+            ws.current = new WebSocket("wss://x2ecosystem.io:16804"); // создаем ws соединение
             ws.current.onopen = () => sendMessage(ws.current, history);	// callback на ивент открытия соединения
             ws.current.onclose = () => setIsOpen(false); // callback на ивент закрытия соединения
 
@@ -92,7 +93,7 @@ const Chat = () => {
               <div className="message">
                 <div className="frame-48096125">
                   <div className="frame-48096124">
-                    <img src={VectorsWrapper9} loading="lazy" width="48" height="48.000003814697266" alt="" className="vectors-wrapper-13" />
+                    <img src={VectorsWrapper11} loading="lazy" width="48" height="48.000003814697266" alt="" className="vectors-wrapper-13" />
                     <div className="text-8">Cortana chat</div>
                     <img src={ VectorsWrapper3 } loading="lazy" width="26" height="26" alt="" className="vectors-wrapper-14" />
                   </div>
